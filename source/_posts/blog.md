@@ -1,6 +1,6 @@
 ---
-layout: Hellow my first blog!
-title: Hellow my first blog!
+layout: Hello my first blog!
+title: Hello my first blog!
 date: 2022-07-21 15:26:15
 tags:
 - blog
