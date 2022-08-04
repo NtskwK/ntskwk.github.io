@@ -10,6 +10,7 @@ categories:
 keywords: 
 - Auto.js
 highlight_shrink: false
+top_img: https://s2.loli.net/2022/08/04/uh52HWZTBK6VEFq.jpg
 ---
 相关链接：
 
