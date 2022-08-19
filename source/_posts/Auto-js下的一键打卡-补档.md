@@ -15,9 +15,9 @@ cover: https://s2.loli.net/2022/08/04/uh52HWZTBK6VEFq.jpg
 ---
 相关链接：
 
-Hooの小窝：[http://blog.jiyehoo.com:81/index.php/archives/288/]()
+Hooの小窝：[http://blog.jiyehoo.com:81/index.php/archives/288/](http://blog.jiyehoo.com:81/index.php/archives/288/)
 
-项目地址：[https://github.com/NtskwK/AutoDailyClock-GUT]()
+项目地址：[https://github.com/NtskwK/AutoDailyClock-GUT](https://github.com/NtskwK/AutoDailyClock-GUT)
 
 # 前提概要
 **Auto-Daily-Clock**是[JiyeHoo](https://github.com/JiyeHoo)学长发起的，通过`auto.js`实现每日钉钉打卡的脚本。因为脚本的更新状况已经落后于钉钉数个版本，所以部分控件实例已无法正常识别。另一方面，由于学长本人现已从学校毕业，不方便继续维护这个项目。于是我决定 *暂时接手* 推进项目的维护工作。
