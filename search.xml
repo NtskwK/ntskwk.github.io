@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello my first blog!</title>
-    <url>/2022/07/21/blog/</url>
-    <content><![CDATA[<h1 id="先来说说markdown"><a href="#先来说说markdown" class="headerlink" title="先来说说markdown"></a>先来说说markdown</h1><p>我不喜欢用富文本工具来写东西。因为不懂地方使用的富文本编辑器面板都不一样，每次到了不同的平台，还需要重新适应新的工作方式。客观的来说，不同平台上富文本编辑器在走向高度个性化发展的同时，也为现在的创作环境带来了极大的混乱。而且使用富文本编辑器需要我们频繁的操控鼠标，就像用笔写字却要频繁地要把笔放下一样，是很不利于将注意力持续集中在书写上的。<br>使用<code>markdown</code>格式编写内容时只需要使用合理地使用常用的标点符号就可以完成大量的排版工作，而且不用担心像使用<code>word文档</code>那样会出现快捷键冲突的问题，这样可以提高我们创作的效率。</p>
-<h1 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h1><p>使用过各种各样的在线笔记平台后，最终还是选择了用<code>hexo</code>在<code>gitpage</code>上搭建静态博客。<br>利用<code>gitpage</code>服务可以大量减少后期的维护工作，不用担心被打，也不用操心配置<code>域名</code>和<code>CDN</code>一类的问题。对于一个入门级选手来说，降低了配置门槛。<del>（但是如果以后要建站的话还是要学习这些东西）</del><br>更重要的是，内容的发布和储存都是掌握在自己手中的。完全不用担心自己的工作成果因为各种<em>河蟹</em>一夜之间全部丢失。</p>
-<h1 id="来发布图片吧"><a href="#来发布图片吧" class="headerlink" title="来发布图片吧"></a>来发布图片吧</h1><p>在接触在线笔记平台的时候我就注意到了这个问题。<br>很多社交软件中的允许我们直接选中电脑中的图片添加或者从剪贴板导入。众所周知，在<code>markdown</code>中，图片是以链接的形式从外部引入的。如果我们用<code>markdown</code>格式来做笔记，那会产生多个单独的文件。但是在很多的在线笔记平台中，通常每次只允许我们上传<strong>单个</strong>文件。这就导致了如果我们不把文档转换成其他格式上传的话，就必须要先将<code>markdown</code>格式的纯文字文档上传，再用平台提供的编辑器来插入图片（这会非常麻烦）。<del>特别是某个限制了普通用户上传流量的平台</del>既然不能将<code>markdown</code>带着图片一起上传，有没有别的办法在上传的文档中添加图片呢？答案是<strong>有的</strong>！</p>
-<p>我们可以换个角度——先把图片上传到网上，然后再在文档中用<code>url</code>引用网络上已有的图片资源。</p>
-<p>这就需要用到另一个工具——<strong>图床</strong>。</p>
-<p>我们可以把图片传到图床上，然后用图床提供的链接来访问并获取图片。这个方式不仅可以减少<code>markdown</code>文档，还可以节省站点的流量。</p>
-]]></content>
-      <categories>
-        <category>实践</category>
-        <category>踩坑</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>入门Docker[补档]</title>
-    <url>/2022/07/11/%E5%85%A5%E9%97%A8Docker-%E8%A1%A5%E6%A1%A3/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>实践</category>
-        <category>踩坑</category>
-      </categories>
-      <tags>
-        <tag>实践</tag>
-        <tag>踩坑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AutoX下的一键打卡[补档]</title>
     <url>/2022/07/14/Auto-js%E4%B8%8B%E7%9A%84%E4%B8%80%E9%94%AE%E6%89%93%E5%8D%A1-%E8%A1%A5%E6%A1%A3/</url>
     <content><![CDATA[<p>相关链接：</p>
@@ -72,16 +41,72 @@
         <category>实践</category>
       </categories>
       <tags>
-        <tag>实践</tag>
         <tag>补档</tag>
+        <tag>实践</tag>
       </tags>
   </entry>
   <entry>
-    <title>分享一些好用的工具</title>
+    <title>Pr2022完整版的分享</title>
+    <url>/2022/10/01/PrimerPro2022%E7%A6%BB%E7%BA%BF%E8%AF%AD%E8%A8%80%E5%8C%85%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<h1 id="话说在前"><a href="#话说在前" class="headerlink" title="话说在前"></a>话说在前</h1><p>我们剪辑工作室的招新工作即将完成，一群刚从高中毕业的小朋友们正准备成为新的同事。这本是每年必不可少的一件事，现在却给我们带来了不小的挑战。大家新买的笔记本电脑预装的都是<code>Windows11</code>，而我们常用的软件<code>Premiere Pro</code>的<code>2021</code>版本对新系统的兼容性并不是很好。于是，我和一起工作的朋友们曾在讨论是否需要把目前的剪辑工作流从Pr<code>2021</code>迁移到<code>2022</code>。（尽管去年我才艰难地说服了所有成员将已经安装的旧版软件更换为统一版本）</p>
+<p>在经历过几次更新后，<code>Premiere Pro 2022</code> 的稳定性已经比原来改善了许多。新版本的Premiere Pro不仅提升了性能，也给我们带来了许多更强大的新功能。我们将一部分更换新版本带来的改变列举了出来：</p>
+<p><strong>优势</strong></p>
+<ul>
+<li>软件界面更加便于上手</li>
+<li>对新硬件和新系统的支持性更好</li>
+<li>强大的<strong>离线</strong><code>S2T</code>（Speech to Text：语音转文字）功能</li>
+</ul>
+<p><strong>劣势</strong></p>
+<ul>
+<li>需要重新适应功能布局</li>
+<li>删掉了<code>旧版标题</code></li>
+<li>以及……安装包的体积实在是<strong>太大了</strong></li>
+</ul>
+<h1 id="简单思考"><a href="#简单思考" class="headerlink" title="简单思考"></a>简单思考</h1><h2 id="从安装包开始"><a href="#从安装包开始" class="headerlink" title="从安装包开始"></a>从安装包开始</h2><p>其实相对来说，前面两点还挺好解决。但是最后这一点还是有不小难度的。<code>Premiere Pro</code>这款软件本身大小只有不到<code>3GB</code>，但是如果算上<code>5GB</code>大小的离线语言包，那么整个安装包的体积将会直接来到<code>8GB</code>以上——这是非常致命的！</p>
+<p>除去会员费昂贵的某度网盘，和不支持分享压缩文件的某网盘外，几乎很难找到便于分享大文件[^1]的渠道。（自建下载渠道不算常见的分享方式）而根据以往的经验，如果将大文件分卷成多个小文件进行分享，又不可避免的会有人做出令人血压升高的操作。所以也不会考虑使用这种方式。</p>
+<h2 id="不可或缺的新功能"><a href="#不可或缺的新功能" class="headerlink" title="不可或缺的新功能"></a>不可或缺的新功能</h2><p>既然语言包的体积过于庞大，那么，为什么不去找已经不带语言包的版本呢？</p>
+<p>从一方面来说，由于特殊的网络环境，我们无法通过软件内置的安装渠道下载语言包。另一方面，对于我<strong>个人</strong>而言，除去本地的<code>S2T</code>功能以外，新版本的更新并没有太多能打动我的地方。除了升级版本在稳定性上带来的风险外，新版本在功能上做出的调整也会让人怀疑投入新的时间成本去适应是否的值得。</p>
+<p><code>S2T</code>作为一个广大用户都期待已久的功能，其地位是举足轻重的。 <del>剪映都有个这功能了，你一个专业软件不会还把这种事交给其他工具干吧？</del> 所以这个问题果然还是得换一种方式解决。</p>
+<h1 id="新的发现"><a href="#新的发现" class="headerlink" title="新的发现"></a>新的发现</h1><p>通过分析两种安装包的区别可以看出，语音包被安装在了这个目录下。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\&lt;version&gt;\</span><br></pre></td></tr></table></figure>
+<p>那么，事情就变得简单起来了——我们只需要把语言包单独打包，再和不带语音包的版本一起发出去就好了。</p>
+<p>从安装包的目录下可以找到这些文件（以vposy大佬的版本为例）</p>
+<p><img src="https://s2.loli.net/2022/10/03/7LJFpQBy1wUql6Y.png" alt="安装包"></p>
+<p>发现语言都是用缩写表示的，特别是这个“yue语”我想了半天愣是想不出<code>yue</code>的全称到底是什么。于是打开json文件看一下</p>
+<p><img src="https://s2.loli.net/2022/10/03/zb4U9vPYWB1FNdk.png" alt="粤语"></p>
+<p>打开一看，Cantonese Chinese？好家伙，居然真的是“粤（yue）语”。</p>
+<p><img src="https://s2.loli.net/2022/10/03/2nFeyDtKM6SPCWv.png"></p>
+<p>接着，把压缩文件内的核心部分提取出来，重命名一下，再附上个简单的食用说明。</p>
+<p><img src="https://s2.loli.net/2022/10/03/NUGmjeTLyfYv7O4.png"></p>
+<p>重新压缩一下，再和<code>Pr2022</code>不带语音包的版本一起发出去，这样就算大功告成了。</p>
+<p><img src="https://s2.loli.net/2022/10/03/6zQAcljBGd4IpLY.png"></p>
+<h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p><a href="https://weibo.com/vposy">weibo@vposy</a></p>
+<p>[^1]：FAT32格式不支持4G以上的文件，很多在线服务都把单个文件允许的最大体积设在了这个值。</p>
+]]></content>
+      <tags>
+        <tag>实践</tag>
+        <tag>Premiere Pro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>首次上手制作Docker镜像[补档]</title>
+    <url>/2022/07/11/%E5%85%A5%E9%97%A8Docker-%E8%A1%A5%E6%A1%A3/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>实践</category>
+        <category>踩坑</category>
+      </categories>
+      <tags>
+        <tag>实践</tag>
+        <tag>踩坑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享一些好(qi)用(guai)的工具</title>
     <url>/2022/08/21/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h1 id="DNS-Benchmark"><a href="#DNS-Benchmark" class="headerlink" title="DNS Benchmark"></a>DNS Benchmark</h1><p>用来测试哪种配置DNS最适合自己</p>
 <p>这个软件功能强大且非常简洁，它只有<code>160kb</code>大小，因为它是用会汇编语言的。</p>
-<p>使用方法：<a href="https://rxclc.top/index.php/archives/8/">人形草履虫的笔记本</a></p>
+<p>使用方法👉<a href="https://rxclc.top/index.php/archives/8/">人形草履虫的笔记本</a></p>
 ]]></content>
       <categories>
         <category>实践</category>
@@ -97,6 +122,71 @@
       <categories>
         <category>实践</category>
       </categories>
+      <tags>
+        <tag>实践</tag>
+        <tag>踩坑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello my first blog!</title>
+    <url>/2022/07/21/blog/</url>
+    <content><![CDATA[<h1 id="先来说说markdown"><a href="#先来说说markdown" class="headerlink" title="先来说说markdown"></a>先来说说markdown</h1><p>我不喜欢用富文本工具来写东西。因为不懂地方使用的富文本编辑器面板都不一样，每次到了不同的平台，还需要重新适应新的工作方式。客观的来说，不同平台上富文本编辑器在走向高度个性化发展的同时，也为现在的创作环境带来了极大的混乱。而且使用富文本编辑器需要我们频繁的操控鼠标，就像用笔写字却要频繁地要把笔放下一样，是很不利于将注意力持续集中在书写上的。<br>使用<code>markdown</code>格式编写内容时只需要使用合理地使用常用的标点符号就可以完成大量的排版工作，而且不用担心像使用<code>word文档</code>那样会出现快捷键冲突的问题，这样可以提高我们创作的效率。</p>
+<h1 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h1><p>使用过各种各样的在线笔记平台后，最终还是选择了用<code>hexo</code>在<code>gitpage</code>上搭建静态博客。<br>利用<code>gitpage</code>服务可以大量减少后期的维护工作，不用担心被打，也不用操心配置<code>域名</code>和<code>CDN</code>一类的问题。对于一个入门级选手来说，降低了配置门槛。<del>（但是如果以后要建站的话还是要学习这些东西）</del><br>更重要的是，内容的发布和储存都是掌握在自己手中的。完全不用担心自己的工作成果因为各种<em>河蟹</em>一夜之间全部丢失。</p>
+<h1 id="来发布图片吧"><a href="#来发布图片吧" class="headerlink" title="来发布图片吧"></a>来发布图片吧</h1><p>在接触在线笔记平台的时候我就注意到了这个问题。<br>很多社交软件中的允许我们直接选中电脑中的图片添加或者从剪贴板导入。众所周知，在<code>markdown</code>中，图片是以链接的形式从外部引入的。如果我们用<code>markdown</code>格式来做笔记，那会产生多个单独的文件。但是在很多的在线笔记平台中，通常每次只允许我们上传<strong>单个</strong>文件。这就导致了如果我们不把文档转换成其他格式上传的话，就必须要先将<code>markdown</code>格式的纯文字文档上传，再用平台提供的编辑器来插入图片（这会非常麻烦）。<del>特别是某个限制了普通用户上传流量的平台</del>既然不能将<code>markdown</code>带着图片一起上传，有没有别的办法在上传的文档中添加图片呢？答案是<strong>有的</strong>！</p>
+<p>我们可以换个角度——先把图片上传到网上，然后再在文档中用<code>url</code>引用网络上已有的图片资源。</p>
+<p>这就需要用到另一个工具——<strong>图床</strong>。</p>
+<p>我们可以把图片传到图床上，然后用图床提供的链接来访问并获取图片。这个方式不仅可以减少<code>markdown</code>文档，还可以节省站点的流量。</p>
+]]></content>
+      <categories>
+        <category>实践</category>
+        <category>踩坑</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pallas-Bot的一键式部署</title>
+    <url>/2022/10/02/%E9%80%9A%E8%BF%87%E8%84%9A%E6%9C%AC%E5%AE%9E%E7%8E%B0nonebot%E4%BB%A5%E5%8F%8A%E5%85%B6%E6%8F%92%E4%BB%B6%E7%9A%84%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<p>相关链接：</p>
+<p>NoneBot2：<a href="https://v2.nonebot.dev/">https://v2.nonebot.dev/</a></p>
+<p>Pallas-Bot：<a href="https://github.com/MistEO/Pallas-Bot">https://github.com/MistEO/Pallas-Bot</a></p>
+<p>Dice：<a href="https://github.com/Dice-Developer-Team/Dice">https://github.com/Dice-Developer-Team/Dice</a></p>
+<p>Pallas-Helper：<a href="https://github.com/NtskwK/Pallasbot-Helper">https://github.com/NtskwK/Pallasbot-Helper</a></p>
+<h1 id="前提知识"><a href="#前提知识" class="headerlink" title="前提知识"></a>前提知识</h1><p><code>NoneBot2</code>：一个跨平台的 Python 聊天机器人<code>框架</code></p>
+<p><code>Pallas-Bot</code>：一框交互式的聊天机器人<code>插件</code></p>
+<p><code>Dice</code>：一款QQ跑团掷骰机器人<code>插件</code></p>
+<h1 id="灵感来源"><a href="#灵感来源" class="headerlink" title="灵感来源"></a>灵感来源</h1><p>得益于溯洄大佬在<a href="https://forum.kokona.tech/">论坛</a>上提供的一键式<code>Dice!</code>部署脚本，很多没有编程基础的人也可以在自己的设备上部署自己的<code>骰娘</code>[^1]。利用<code>批处理脚本</code>来替代用户执行特定操作，这是一种非常巧妙的方法。那么有没有可能，这种脚本也能同样用于其他的聊天机器人上呢？</p>
+<h1 id="解读脚本"><a href="#解读脚本" class="headerlink" title="解读脚本"></a>解读脚本</h1><p>在开始工作之前，最好先提前了解一下它的实现方式。</p>
+<p>首先，用户在论坛的导航页下载<code>OneClickMiraiDice.cmd</code>，然后启动脚本，让批处理脚本来代替用户完成部署操作。</p>
+<img src="https://s2.loli.net/2022/10/03/b3oalvDkQI7Hwdx.png"  style="zoom:50%;" />
+
+
+<p>部署完成后，目录下的<code>PowerShell脚本</code>即<code>main.ps1</code>是整个结构的核心，而同时生成的多个<code>批处理脚本</code>则负责用不同的启动参数来拉起<code>main.ps1</code>。（其中的bash脚本是供linux用户使用的）</p>
+<img src="https://s2.loli.net/2022/10/03/EmOIvhAZbBy69jR.png"  style="zoom:40%;" />
+
+<h1 id="按需修改"><a href="#按需修改" class="headerlink" title="按需修改"></a>按需修改</h1><p><del>我直接开抄！</del></p>
+<img src="https://s2.loli.net/2022/10/03/43NepICLV8sOcyZ.png" style="zoom:50%;" />
+
+<p><code>OneClickMiraiDice.cmd</code>中原本下载的<code>git</code>和<code>unzip</code>均来自溯洄本人的<code>OSS</code>，现在改成了从镜像站点下载。</p>
+<p>虽然早就听说溯洄大佬为了提高在部分机型上的兼容性，特地用<code>Windows API</code>来代替许多已有的轮子。但是看到这个下载脚本的时候都还是被震惊到了的。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">DownloadFile</span><span class="params">(<span class="variable">$url</span>, <span class="variable">$targetFile</span>)</span></span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="variable">$uri</span> = <span class="built_in">New-Object</span> <span class="string">&quot;System.Uri&quot;</span> <span class="string">&quot;<span class="variable">$url</span>&quot;</span></span><br><span class="line">	<span class="variable">$request</span> = [<span class="type">System.Net.HttpWebRequest</span>]::Create(<span class="variable">$uri</span>)</span><br><span class="line">	<span class="variable">$request</span>.set_Timeout(<span class="number">15000</span>) <span class="comment">#15 second timeout</span></span><br><span class="line">	<span class="variable">$response</span> = <span class="variable">$request</span>.GetResponse()</span><br><span class="line">	<span class="variable">$totalLength</span> = [<span class="type">System.Math</span>]::Floor(<span class="variable">$response</span>.get_ContentLength()/<span class="number">1024</span>)</span><br><span class="line">	<span class="variable">$responseStream</span> = <span class="variable">$response</span>.GetResponseStream()</span><br><span class="line">	<span class="variable">$targetStream</span> = <span class="built_in">New-Object</span> <span class="literal">-TypeName</span> System.IO.FileStream <span class="literal">-ArgumentList</span> <span class="variable">$targetFile</span>, Create</span><br><span class="line">	<span class="variable">$buffer</span> = <span class="built_in">new-object</span> byte[] <span class="number">256</span>KB</span><br><span class="line">	<span class="variable">$count</span> = <span class="variable">$responseStream</span>.Read(<span class="variable">$buffer</span>,<span class="number">0</span>,<span class="variable">$buffer</span>.length)</span><br><span class="line">	<span class="variable">$downloadedBytes</span> = <span class="variable">$count</span></span><br><span class="line">	<span class="keyword">while</span> (<span class="variable">$count</span> <span class="operator">-gt</span> <span class="number">0</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="variable">$targetStream</span>.Write(<span class="variable">$buffer</span>, <span class="number">0</span>, <span class="variable">$count</span>)</span><br><span class="line">		<span class="variable">$count</span> = <span class="variable">$responseStream</span>.Read(<span class="variable">$buffer</span>,<span class="number">0</span>,<span class="variable">$buffer</span>.length)</span><br><span class="line">		<span class="variable">$downloadedBytes</span> = <span class="variable">$downloadedBytes</span> + <span class="variable">$count</span></span><br><span class="line">		<span class="built_in">Write-Progress</span> <span class="literal">-activity</span> <span class="string">&quot;正在下载文件 &#x27;<span class="variable">$</span>(<span class="variable">$url</span>.split(&#x27;/&#x27;) | Select -Last 1)&#x27;&quot;</span> <span class="literal">-Status</span> <span class="string">&quot;已下载 (<span class="variable">$</span>([System.Math]::Floor(<span class="variable">$downloadedBytes</span>/1024))K of <span class="variable">$</span>(<span class="variable">$totalLength</span>)K): &quot;</span> <span class="literal">-PercentComplete</span> ((([<span class="type">System.Math</span>]::Floor(<span class="variable">$downloadedBytes</span>/<span class="number">1024</span>)) / <span class="variable">$totalLength</span>)  * <span class="number">100</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Write-Progress</span> <span class="literal">-activity</span> <span class="string">&quot;文件 &#x27;<span class="variable">$</span>(<span class="variable">$url</span>.split(&#x27;/&#x27;) | Select -Last 1)&#x27; 下载已完成&quot;</span> <span class="literal">-Status</span> <span class="string">&quot;下载已完成&quot;</span> <span class="literal">-Completed</span></span><br><span class="line">	<span class="variable">$targetStream</span>.Flush()</span><br><span class="line">	<span class="variable">$targetStream</span>.Close()</span><br><span class="line">	<span class="variable">$targetStream</span>.Dispose()</span><br><span class="line">	<span class="variable">$responseStream</span>.Dispose()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>不过不知道为什么，这个脚本无法下载MongoDB以及Microsoft Visual C++ Build Tools 14.0。所以这里改用了小透明・宸的多线程下载脚本。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">PartiallyDownload-File</span><span class="params">([String]<span class="variable">$Uri</span>, [String]<span class="variable">$OutFile</span>, [Int64]<span class="variable">$Start</span>, [Int64]<span class="variable">$End</span> = 0, [String]<span class="variable">$UserAgent</span> = &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64)</span> <span class="title">AppleWebKit</span>/<span class="title">537</span>.<span class="title">36</span> <span class="params">(KHTML, like Gecko)</span> <span class="title">Chrome</span>/<span class="title">74</span>.<span class="title">0</span>.<span class="title">3729</span>.<span class="title">169</span> <span class="title">Safari</span>/<span class="title">537</span>.<span class="title">36</span>&#x27;)</span> &#123;</span><br><span class="line">    [<span class="type">Net.ServicePointManager</span>]::DefaultConnectionLimit = [<span class="built_in">Int</span><span class="type">32</span>]::MaxValue</span><br><span class="line">    <span class="variable">$Request</span> = [<span class="type">Net.WebRequest</span>]::Create(<span class="variable">$Uri</span>)</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$End</span>) &#123;</span><br><span class="line">        <span class="variable">$Request</span>.AddRange(<span class="variable">$Start</span>, <span class="variable">$End</span>)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable">$Request</span>.AddRange(<span class="variable">$Start</span>)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$Request</span>.UserAgent = <span class="variable">$UserAgent</span></span><br><span class="line">    <span class="variable">$Request</span>.Proxy = <span class="variable">$null</span></span><br><span class="line">    <span class="variable">$Response</span> = <span class="variable">$Request</span>.GetResponse()</span><br><span class="line">    <span class="variable">$Stream</span> = <span class="variable">$Response</span>.GetResponseStream()</span><br><span class="line">    <span class="variable">$File</span> = [<span class="type">IO.File</span>]::Create(<span class="variable">$OutFile</span>)</span><br><span class="line">    <span class="variable">$Stream</span>.CopyTo(<span class="variable">$File</span>)</span><br><span class="line">    <span class="variable">$File</span>.Close()</span><br><span class="line">    <span class="variable">$Stream</span>.Close()</span><br><span class="line">    <span class="variable">$Response</span>.Close()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Merge-File</span><span class="params">([String[]]<span class="variable">$Source</span>, [String]<span class="variable">$Destination</span>)</span></span> &#123;</span><br><span class="line">    <span class="variable">$Source</span> = <span class="variable">$Source</span>.Clone()</span><br><span class="line">    <span class="keyword">for</span> (<span class="variable">$i</span> = <span class="number">0</span>; <span class="variable">$i</span> <span class="operator">-lt</span> <span class="variable">$Source</span>.Length; <span class="variable">$i</span>++) &#123;</span><br><span class="line">        <span class="variable">$Source</span>[<span class="variable">$i</span>] = <span class="string">&#x27;&quot;&#x27;</span> + <span class="variable">$ExecutionContext</span>.SessionState.Path.GetUnresolvedProviderPathFromPSPath(<span class="variable">$Source</span>[<span class="variable">$i</span>]) + <span class="string">&#x27;&quot;&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    cmd /c <span class="built_in">copy</span> /b /y (<span class="variable">$Source</span> <span class="operator">-join</span> <span class="string">&#x27;+&#x27;</span>) <span class="variable">$ExecutionContext</span>.SessionState.Path.GetUnresolvedProviderPathFromPSPath(<span class="variable">$Destination</span>) | <span class="built_in">Out-Null</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">MultiThreadDownload-File</span><span class="params">([String]<span class="variable">$Uri</span>, [String]<span class="variable">$OutFile</span>, [Int32]<span class="variable">$ThreadCount</span> = 4, [Int32]<span class="variable">$MinSliceSize</span> = 256KB, [String]<span class="variable">$UserAgent</span> = &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64)</span> <span class="title">AppleWebKit</span>/<span class="title">537</span>.<span class="title">36</span> <span class="params">(KHTML, like Gecko)</span> <span class="title">Chrome</span>/<span class="title">74</span>.<span class="title">0</span>.<span class="title">3729</span>.<span class="title">169</span> <span class="title">Safari</span>/<span class="title">537</span>.<span class="title">36</span>&#x27;)</span> &#123;</span><br><span class="line">    [<span class="type">Net.ServicePointManager</span>]::DefaultConnectionLimit = [<span class="built_in">Int</span><span class="type">32</span>]::MaxValue</span><br><span class="line">    [<span class="built_in">Int</span><span class="type">64</span>]<span class="variable">$Length</span> = (<span class="built_in">Invoke-WebRequest</span> <span class="variable">$Uri</span> <span class="literal">-Method</span> Head <span class="literal">-UseBasicParsing</span> <span class="literal">-Proxy</span> <span class="variable">$null</span>).Headers.<span class="string">&#x27;Content-Length&#x27;</span></span><br><span class="line">    [<span class="built_in">String</span>[]]<span class="variable">$Part</span> = <span class="selector-tag">@</span>()</span><br><span class="line">    [<span class="built_in">Int</span><span class="type">64</span>[]]<span class="variable">$Start</span> = <span class="selector-tag">@</span>()</span><br><span class="line">    [<span class="built_in">Int</span><span class="type">64</span>[]]<span class="variable">$End</span> = <span class="selector-tag">@</span>()</span><br><span class="line">    [<span class="type">Management.Automation.PowerShell</span>[]]<span class="variable">$Job</span> = <span class="selector-tag">@</span>()</span><br><span class="line">    [<span class="type">Object</span>[]]<span class="variable">$Handle</span> = <span class="selector-tag">@</span>()</span><br><span class="line">    <span class="keyword">if</span> ((<span class="variable">$MinSliceSize</span> * <span class="variable">$ThreadCount</span>) <span class="operator">-gt</span> <span class="variable">$Length</span>) &#123; <span class="variable">$ThreadCount</span> = [<span class="type">Math</span>]::Floor(<span class="variable">$Length</span> / <span class="variable">$MinSliceSize</span>) &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="variable">$i</span> = <span class="number">0</span>; <span class="variable">$i</span> <span class="operator">-lt</span> <span class="variable">$ThreadCount</span>; <span class="variable">$i</span>++) &#123;</span><br><span class="line">        <span class="variable">$Start</span> += <span class="variable">$End</span>[<span class="variable">$i</span> - <span class="number">1</span>] + [<span class="built_in">Int</span><span class="type">64</span>](!!<span class="variable">$i</span>)</span><br><span class="line">        <span class="variable">$End</span> += [<span class="type">Math</span>]::Round(<span class="variable">$Length</span> / <span class="variable">$ThreadCount</span> * (<span class="variable">$i</span> + <span class="number">1</span>))</span><br><span class="line">        <span class="variable">$Part</span> += <span class="variable">$ExecutionContext</span>.SessionState.Path.GetUnresolvedProviderPathFromPSPath([<span class="type">GUID</span>]::NewGuid().ToString(<span class="string">&#x27;N&#x27;</span>) + <span class="string">&#x27;.bin&#x27;</span>)</span><br><span class="line">        <span class="variable">$Job</span> += [<span class="type">PowerShell</span>]::Create().AddScript(<span class="variable">$</span>&#123;Function:PartiallyDownload<span class="operator">-File</span>&#125;).AddParameter(<span class="string">&#x27;Uri&#x27;</span>, <span class="variable">$Uri</span>).AddParameter(<span class="string">&#x27;OutFile&#x27;</span>, <span class="variable">$Part</span>[<span class="variable">$i</span>]).AddParameter(<span class="string">&#x27;Start&#x27;</span>, <span class="variable">$Start</span>[<span class="variable">$i</span>]).AddParameter(<span class="string">&#x27;End&#x27;</span>, <span class="variable">$End</span>[<span class="variable">$i</span>]).AddParameter(<span class="string">&#x27;UserAgent&#x27;</span>, <span class="variable">$UserAgent</span>)</span><br><span class="line">        <span class="variable">$Handle</span> += <span class="variable">$Job</span>[<span class="variable">$i</span>].BeginInvoke()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    [<span class="built_in">Double</span>]<span class="variable">$Progress</span> = <span class="number">0</span></span><br><span class="line">    [<span class="built_in">Int</span><span class="type">32</span>]<span class="variable">$Interval</span> = <span class="number">200</span></span><br><span class="line">    [<span class="built_in">Bool</span><span class="type">ean</span>]<span class="variable">$Complete</span> = <span class="variable">$false</span></span><br><span class="line">    <span class="keyword">while</span> (!<span class="variable">$Complete</span>) &#123;</span><br><span class="line">        <span class="built_in">Start-Sleep</span> <span class="literal">-Milliseconds</span> <span class="variable">$Interval</span></span><br><span class="line"></span><br><span class="line">        <span class="variable">$Complete</span> = <span class="variable">$true</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="variable">$i</span> = <span class="number">0</span>; <span class="variable">$i</span> <span class="operator">-lt</span> <span class="variable">$ThreadCount</span>; <span class="variable">$i</span>++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (!<span class="variable">$Handle</span>[<span class="variable">$i</span>].IsCompleted) &#123;</span><br><span class="line">                <span class="variable">$Complete</span> = <span class="variable">$false</span></span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="variable">$i</span> = <span class="number">0</span>; <span class="variable">$i</span> <span class="operator">-lt</span> <span class="variable">$ThreadCount</span>; <span class="variable">$i</span>++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (!(<span class="built_in">Test-Path</span> <span class="variable">$Part</span>[<span class="variable">$i</span>])) &#123; <span class="keyword">continue</span> &#125;</span><br><span class="line">            <span class="variable">$Progress</span> = (<span class="built_in">Get-Item</span> <span class="variable">$Part</span>[<span class="variable">$i</span>]).Length / (<span class="variable">$End</span>[<span class="variable">$i</span>] - <span class="variable">$Start</span>[<span class="variable">$i</span>] + <span class="number">1</span>) * <span class="number">100</span></span><br><span class="line">            <span class="built_in">Write-Progress</span> <span class="literal">-Id</span> <span class="variable">$i</span> <span class="literal">-Activity</span> (<span class="string">&#x27;Thread #&#123;0&#125; &#123;1&#125; - &#123;2&#125;&#x27;</span> <span class="operator">-f</span> <span class="variable">$i</span>, <span class="variable">$Start</span>[<span class="variable">$i</span>], <span class="variable">$End</span>[<span class="variable">$i</span>]) <span class="literal">-Status</span> (<span class="string">&#x27;&#123;0&#125; / &#123;1&#125; &#123;2:f2&#125;%&#x27;</span> <span class="operator">-f</span> (<span class="built_in">Get-Item</span> <span class="variable">$Part</span>[<span class="variable">$i</span>]).Length, (<span class="variable">$End</span>[<span class="variable">$i</span>] - <span class="variable">$Start</span>[<span class="variable">$i</span>] + <span class="number">1</span>), <span class="variable">$Progress</span>) <span class="literal">-PercentComplete</span> <span class="variable">$Progress</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="variable">$i</span> = <span class="number">0</span>; <span class="variable">$i</span> <span class="operator">-lt</span> <span class="variable">$ThreadCount</span>; <span class="variable">$i</span>++) &#123;</span><br><span class="line">        <span class="built_in">Write-Progress</span> <span class="literal">-Id</span> <span class="variable">$i</span> <span class="literal">-Activity</span> (<span class="string">&#x27;Thread &#123;0&#125; - &#123;1&#125;&#x27;</span> <span class="operator">-f</span> <span class="variable">$Start</span>[<span class="variable">$i</span>], <span class="variable">$End</span>[<span class="variable">$i</span>]) <span class="literal">-Completed</span></span><br><span class="line">        <span class="variable">$Job</span>[<span class="variable">$i</span>].EndInvoke(<span class="variable">$Handle</span>[<span class="variable">$i</span>])</span><br><span class="line">        <span class="variable">$Job</span>[<span class="variable">$i</span>].Runspace.Close()</span><br><span class="line">        <span class="variable">$Job</span>[<span class="variable">$i</span>].Dispose()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">Merge-File</span> <span class="literal">-Source</span> <span class="variable">$Part</span> <span class="literal">-Destination</span> <span class="variable">$OutFile</span></span><br><span class="line">    <span class="keyword">foreach</span> (<span class="variable">$p</span> <span class="keyword">in</span> <span class="variable">$Part</span>) &#123; <span class="built_in">Remove-Item</span> <span class="variable">$p</span> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里有一点不得不提的就是，很多人都群里问为什么自己明明已经装了很多的运行库，却还是会出现这样的提示：</p>
+<blockquote>
+<p>Microsoft Visual C+ 14.0 or greater is required. Get it with ‘nicrosoft C++ Build Tools’：……</p>
+</blockquote>
+<p>请仔细看，这里需要用到的是<code>Build Tools</code>，而不是常见的<code>Runtime</code>。在开发过程中安装<code>Build Tools</code>这一步骤通常都会由<code>IDE</code>自动完成。但是对于普通用户而言，为了部署一个聊天机器人就去下载<code>VisualStudio</code>，还是有些太浪费时间了。所以还是直接下载<code>Microsoft Visual C++ Build Tools 14.0</code>更方便。（尽管他的体积也不算小）</p>
+<p>不同于mirai这样的基于java的程序。nonebot需要在部署后额外再安装所需的依赖，所以就把这一步改成了在启动<code>nonebot</code>的时候再执行。<del>就当检查运行环境了</del></p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net <span class="built_in">start</span> MongoDB</span><br><span class="line"></span><br><span class="line">python <span class="literal">-m</span> pip install <span class="literal">--upgrade</span> pip <span class="literal">-i</span> https://mirror.baidu.com/pypi/simple</span><br><span class="line">pip install <span class="literal">-i</span> https://mirror.baidu.com/pypi/simple <span class="literal">-r</span> requirements.txt</span><br><span class="line"></span><br><span class="line">nb plugin install nonebot_plugin_apscheduler</span><br><span class="line">nb plugin install gocqhttp</span><br><span class="line"></span><br><span class="line">nb run</span><br></pre></td></tr></table></figure>
+
+<p>启动<code>nonebot</code>之前要记得先启动<code>MongoDB</code>服务，这一步是需要用到管理员权限的。所以，要记得在<code>批处理脚本</code>启动的时候直接以管理员身份拉起<code>PowerShell</code>。</p>
+<h1 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h1><p>溯洄：<a href="https://blog.kokona.tech/">https://blog.kokona.tech</a></p>
+<p>小透明・宸：<a href="https://akarin.dev/">https://akarin.dev</a></p>
+<h1 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h1><p>[^1]：QQ跑团掷骰机器人的别称</p>
+]]></content>
       <tags>
         <tag>实践</tag>
         <tag>踩坑</tag>
