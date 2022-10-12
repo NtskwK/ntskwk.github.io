@@ -1,14 +1,16 @@
 ---
-title: 'AutoX下的一键打卡[补档]'
+title: '[Autojs]一键打卡脚本'
 date: 2022-07-14 15:00:18
 update: 2022-08-04 13:49:18
 tags:
 - 补档
 - 实践
+- Auto.js
 categories:
 - 实践
 keywords: 
 - Auto.js
+- AutoX
 highlight_shrink: false
 top_img: https://s2.loli.net/2022/08/04/uh52HWZTBK6VEFq.jpg
 cover: https://s2.loli.net/2022/08/04/uh52HWZTBK6VEFq.jpg

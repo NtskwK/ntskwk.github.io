@@ -1,10 +1,11 @@
 ---
-title: Pallas-Bot的一键式部署
+title: [Nonebot]Pallas-Bot的一键式部署
 date: 2022-10-02 19:29:52
 update:
 tags:
 - 实践
 - 踩坑
+- Nonebot
 categories:
 keywords:
 - PowerShell

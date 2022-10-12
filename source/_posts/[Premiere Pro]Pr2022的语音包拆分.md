@@ -1,5 +1,5 @@
 ---
-title: Pr2022完整版的分享
+title: [Premiere Pro]Pr2022的语音包拆分
 date: 2022-10-01 23:40:03
 update:
 tags:
