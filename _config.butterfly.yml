@@ -645,7 +645,7 @@ aside:
       link: https://github.com/ntskws
   card_announcement:
     enable: true
-    content: 第一次blog施工进行中
+    content: 
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
