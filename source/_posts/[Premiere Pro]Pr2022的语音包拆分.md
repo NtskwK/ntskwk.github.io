@@ -73,4 +73,4 @@ C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\<version>\
 
 
 
-[^1]：FAT32格式不支持4G以上的文件，很多在线服务都把单个文件允许的最大体积设在了这个值。
+[^1]: FAT32格式不支持4G以上的文件，很多在线服务都把单个文件允许的最大体积设在了这个值。
