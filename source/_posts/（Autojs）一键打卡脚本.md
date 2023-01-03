@@ -1,5 +1,5 @@
 ---
-title: '[Autojs]一键打卡脚本'
+title: '（Autojs）一键打卡脚本'
 date: 2022-07-14 15:00:18
 update: 2022-08-04 13:49:18
 tags:
