@@ -4,6 +4,7 @@
 
 menu:
   首页: / || fas fa-home
+  仓库: https://wp.natsuu.tk/zh-CN/ || fas fa-warehouse
   时光机: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open

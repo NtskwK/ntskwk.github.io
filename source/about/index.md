@@ -21,6 +21,8 @@ type: "about"
 
 - 业余剪辑工作者
 
+- ffmpeg封装学习中
+
 - ~~专业划水运动员~~
 
 - thinkphp 学习中
