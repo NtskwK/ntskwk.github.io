@@ -1,3 +1,3 @@
-hexo clean
-hexo g
-hexo s
+call hexo clean
+call hexo g
+call hexo s
