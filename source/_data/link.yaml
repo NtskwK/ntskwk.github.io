@@ -1,5 +1,12 @@
 - class_name: 这些都是dalao
-  class_desc: 快快关注他们2333
+  class_desc: 快快关注他们
+  link_list:
+    - name: HsiangNianian
+      link: https://jyunko.cn/
+      avatar: https://github.com/HsiangNianian.png
+      descr: The owner of HydroRoll
+- class_name: 这些是我的朋友们
+  class_desc: 也请多多关照一下（笑）
   link_list:
     - name: matoujin
       link: https://blog.jiyehoo.com/
