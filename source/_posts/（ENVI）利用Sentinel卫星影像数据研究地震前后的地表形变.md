@@ -14,11 +14,11 @@ highlight_shrink: false
 top_img: https://s2.loli.net/2023/07/30/EeQU3pMGNI5dxsc.jpg
 cover: https://s2.loli.net/2023/07/30/QAEfBgnHG4zU9l6.jpg
 ---
-# 0、 前情概要
+# 前情概要
 
 据中国地震台网正式测定：07月03日20时57分某市发生3.7级地震，震源深度9千米。某分析小组将用遥感卫星影像数据分析地震前后地表发生的形变。
 
-# 1、 检查 SARscape 在 ENVI 中的配置
+# 检查 SARscape 在 ENVI 中的配置
 
 1. 安装ENVI 以及 SARscape扩展
 2. 下载研究地区对应时段的Sentinel卫星影像和DEM
@@ -33,7 +33,7 @@ cover: https://s2.loli.net/2023/07/30/QAEfBgnHG4zU9l6.jpg
 
 应用ENVI自带的Sentinel参数设置
 
-# 2、 加载 Sentinel 卫星影像
+# 加载 Sentinel 卫星影像
 
 ![](https://s2.loli.net/2023/07/30/95lYTSQ3jawsUNg.png)
 
@@ -43,7 +43,7 @@ cover: https://s2.loli.net/2023/07/30/QAEfBgnHG4zU9l6.jpg
 
 （SARscape 默认为每个步骤的输出文件重命名为 `原文件名` 加 `特定后缀` ，有特殊需求可以在 `Parameters` 里更改。）
 
-# 3、 基线估算
+# 基线估算
 
 打开基线估算
 > /SARscape/Interferometry/Interferometric Tools/Baseline Estimation
@@ -71,7 +71,7 @@ Pair potentially suited for Interferometry, check the precision plot
 基线估算的结果显示，这两景数据的空间基线为`-40.038`米，位于临界基线 `±6475.240` 米之内，时间基线 `12` 天，做DInSAR的一个相位变化周期代表的地形变化为 `0.028` 米。
 
 
-# 4、 DInSAR Displacement WorkFlow 工作流
+# DInSAR Displacement WorkFlow 工作流
 
 打开 DInSAR Displacement WorkFlow 工作流。
 
@@ -85,7 +85,7 @@ Pair potentially suited for Interferometry, check the precision plot
 
 ![](https://s2.loli.net/2023/07/30/wGUaZ5ne7vdLt6l.png)
 
-**主要不要点到 `Next` 去了**，这样做会很拖时间！
+**主要不要点到 `Next` 去了**，调一步走一步会很浪费时间！
 
 左侧的选项栏可以直接调整每个步骤的参数，调完所有的之后再启动可以无人值守跑完整个流程。
 
@@ -113,13 +113,13 @@ Pair potentially suited for Interferometry, check the precision plot
 > 
 > 96 GB + 1TB
 
-# 5、 结果分析
+# 结果分析
 
 万幸的是，这一晚上都没有弹出报错。第二天到办公室就刚好看见了完成的结果图。图中可以看到，颜色越红的区域就是影响越大的区域。
 
 ![](https://s2.loli.net/2023/07/30/FxG9Jz7ApNBZhra.png)
 
-# 6、 GIS出图*
+# GIS出图*
 
 （这一步不是必须的）
 

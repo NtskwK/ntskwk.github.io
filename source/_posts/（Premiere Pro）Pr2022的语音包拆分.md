@@ -49,11 +49,11 @@ C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\<version>\
 
 从安装包的目录下可以找到这些文件（以vposy大佬的版本为例）
 
-![安装包](https://s2.loli.net/2022/10/03/7LJFpQBy1wUql6Y.png)
+![安装包目录](https://s2.loli.net/2022/10/03/7LJFpQBy1wUql6Y.png)
 
 发现语言都是用缩写表示的，特别是这个“yue语”我想了半天愣是想不出`yue`的全称到底是什么。于是打开json文件看一下
 
-![粤语](https://s2.loli.net/2022/10/03/zb4U9vPYWB1FNdk.png)
+![粤语语音包](https://s2.loli.net/2022/10/03/zb4U9vPYWB1FNdk.png)
 
 打开一看，Cantonese Chinese？好家伙，居然真的是“粤（yue）语”。
 
