@@ -1,5 +1,5 @@
 ---
-title: '利用Sentinel卫星影像数据研究某市地震引发的地表形变'
+title: '（ENVI）利用Sentinel卫星影像数据研究某市地震引发的地表形变'
 date: 2023-07-30 18:50:23
 update: 
 tags:

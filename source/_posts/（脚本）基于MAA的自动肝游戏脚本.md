@@ -1,5 +1,5 @@
 ---
-title: （脚本）基于MAA的自动肝游戏脚本
+title: （脚本）基于MAA的明日方舟自动化脚本
 date: 2023-08-22 01:02:36
 update:
 tags:
@@ -11,9 +11,14 @@ keywords:
 - Python
 - MAA
 - 明日方舟
-top_img:
-cover:
+top_img: https://s2.loli.net/2023/08/23/Bitksb793JCvVol.png
+cover: https://s2.loli.net/2023/08/23/ixlohDHcbZ8MgjQ.jpg
 ---
+
+相关链接：
+
+MAA repo：https://github.com/MaaAssistantArknights/MaaAssistantArknights
+
 # 什么是MAA
 
 [Meo Assistant Arknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights)（现改名为Maa Assistant Arknights）是一款由[MistEO](https://github.com/MistEO)制作的基于**图像识别**技术，可以一键完成全部日常任务的明日方舟游戏小助手！
