@@ -7,6 +7,7 @@ tags:
 - Python
 - 脚本
 categories:
+- 实践
 keywords:
 - Python
 - MAA

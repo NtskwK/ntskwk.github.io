@@ -2,6 +2,7 @@
 title: 关于夏宇的一些事
 date: 2022-07-21 15:40:30
 type: "about" 
+top_img: https://s2.loli.net/2023/08/26/SEBurgXyAxTKI7b.png
 ---
  # 你好！
 
@@ -85,3 +86,6 @@ If you think the content posted on this site violates your rights, please contac
 
 Email: natsukawa247@outlook.com
 **中文 / English / 日本語 only!**
+
+# 鸣谢
+本页面的顶图是来自[Ophaniel](http://www.cnu.cc/users/1461236)的 螺城 | 黑金半岛

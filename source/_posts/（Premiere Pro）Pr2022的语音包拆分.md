@@ -6,6 +6,7 @@ tags:
 - 实践
 - Premiere Pro
 categories:
+- 实践
 keywords:
 - Premiere Pro
 top_img: https://s2.loli.net/2022/10/02/SBhZmWOqnjsD3Y6.jpg
