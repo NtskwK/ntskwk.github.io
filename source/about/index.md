@@ -32,7 +32,7 @@ top_img: https://s2.loli.net/2023/08/26/SEBurgXyAxTKI7b.png
 
 # 来聊聊爱好？
 
-我热衷于尝试去做各种从未做过的事情。尽管大部分都是浅尝辄止，但是对于**尝试新事物**这件事本身倒是乐此不疲。😉
+我热衷于尝试去做各种从未做过的事情，对于**尝试新事物**这件事本身是乐此不疲。😉
 
 线下聚会最喜欢是打牌和日麻，而且是又菜又爱玩那种。🤣
 
@@ -62,6 +62,9 @@ fps玩的很烂，于是发誓要成为有存在感的薯条。
 <!-- timeline 6月 -->
 开始学习`python`并尝试用于处理`RS data`
 <!-- endtimeline -->
+<!-- timeline 10月 -->
+开始学习`web gis`相关技术
+<!-- endtimeline -->
 {% endtimeline %}
 
 
@@ -85,6 +88,7 @@ fps玩的很烂，于是发誓要成为有存在感的薯条。
 If you think the content posted on this site violates your rights, please contact me! I will respond as soon as possible and deal with it within a week.
 
 Email: natsukawa247@outlook.com
+
 **中文 / English / 日本語 only!**
 
 # 鸣谢
