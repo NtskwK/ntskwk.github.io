@@ -1,5 +1,5 @@
 ---
-title: '[Nonebot]Pallas-Bot的一键式部署'
+title: '（Nonebot）Pallas-Bot的一键式部署'
 date: 2022-10-02 19:29:52
 update:
 tags:
@@ -7,6 +7,7 @@ tags:
 - 踩坑
 - Nonebot
 categories:
+- 实践
 keywords:
 - PowerShell
 - 批处理脚本

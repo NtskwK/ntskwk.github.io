@@ -1,11 +1,12 @@
 ---
-title: '[Premiere Pro]Pr2022的语音包拆分'
+title: '（Premiere Pro）Pr2022的语音包拆分'
 date: 2022-10-01 23:40:03
 update:
 tags:
 - 实践
 - Premiere Pro
 categories:
+- 实践
 keywords:
 - Premiere Pro
 top_img: https://s2.loli.net/2022/10/02/SBhZmWOqnjsD3Y6.jpg
@@ -30,7 +31,7 @@ cover: https://s2.loli.net/2022/10/02/njwrhSVqkfAs5TP.jpg
 ## 从安装包开始
 其实相对来说，前面两点还挺好解决。但是最后这一点还是有不小难度的。`Premiere Pro`这款软件本身大小只有不到`3GB`，但是如果算上`5GB`大小的离线语言包，那么整个安装包的体积将会直接来到`8GB`以上——这是非常致命的！
 
-除去会员费昂贵的某度网盘，和不支持分享压缩文件的某网盘外，几乎很难找到便于分享大文件[^1]的渠道。（自建下载渠道不算常见的分享方式）而根据以往的经验，如果将大文件分卷成多个小文件进行分享，又不可避免的会有人做出令人血压升高的操作。所以也不会考虑使用这种方式。
+除去会员费昂贵的某度网盘，和不支持分享压缩文件的某网盘外，几乎很难找到便于分享大文件[1]的渠道。（自建下载渠道不算常见的分享方式）而根据以往的经验，如果将大文件分卷成多个小文件进行分享，又不可避免的会有人做出令人血压升高的操作。所以也不会考虑使用这种方式。
 
 ## 不可或缺的新功能
 既然语言包的体积过于庞大，那么，为什么不去找已经不带语言包的版本呢？
@@ -40,7 +41,7 @@ cover: https://s2.loli.net/2022/10/02/njwrhSVqkfAs5TP.jpg
 `S2T`作为一个广大用户都期待已久的功能，其地位是举足轻重的。 ~~剪映都有个这功能了，你一个专业软件不会还把这种事交给其他工具干吧？~~ 所以这个问题果然还是得换一种方式解决。
 
 # 新的发现
-通过分析两种安装包的区别可以看出，语音包被安装在了这个目录下。
+通过分析完整版安装和不带语音包安装的区别可以看出，语音包被安装在了这个目录下。
 ```
 C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\<version>\
 ```
@@ -49,11 +50,11 @@ C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\<version>\
 
 从安装包的目录下可以找到这些文件（以vposy大佬的版本为例）
 
-![安装包](https://s2.loli.net/2022/10/03/7LJFpQBy1wUql6Y.png)
+![安装包目录](https://s2.loli.net/2022/10/03/7LJFpQBy1wUql6Y.png)
 
 发现语言都是用缩写表示的，特别是这个“yue语”我想了半天愣是想不出`yue`的全称到底是什么。于是打开json文件看一下
 
-![粤语](https://s2.loli.net/2022/10/03/zb4U9vPYWB1FNdk.png)
+![粤语语音包](https://s2.loli.net/2022/10/03/zb4U9vPYWB1FNdk.png)
 
 打开一看，Cantonese Chinese？好家伙，居然真的是“粤（yue）语”。
 
@@ -73,4 +74,4 @@ C:\Program Files\Common Files\Adobe\Premiere Pro\22.0\SpeechESL\<version>\
 
 
 
-[^1]: FAT32格式不支持4G以上的文件，很多在线服务都把单个文件允许的最大体积设在了这个值。
+[1]: FAT32格式不支持4G以上的文件，很多在线服务都把单个文件允许的最大体积设在了这个值。
