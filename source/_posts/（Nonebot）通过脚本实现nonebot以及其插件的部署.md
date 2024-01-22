@@ -7,6 +7,7 @@ tags:
 - 踩坑
 - Nonebot
 categories:
+- 实践
 keywords:
 - PowerShell
 - 批处理脚本
