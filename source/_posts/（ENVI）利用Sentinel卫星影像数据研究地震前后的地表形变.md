@@ -85,9 +85,9 @@ Pair potentially suited for Interferometry, check the precision plot
 
 ![](https://s2.loli.net/2023/07/30/wGUaZ5ne7vdLt6l.png)
 
-**主要不要点到 `Next` 去了**，调一步走一步会很浪费时间！
-
 左侧的选项栏可以直接调整每个步骤的参数，调完所有的之后再启动可以无人值守跑完整个流程。
+
+**注意不要点到 `Next` 去了**，调一步走一步会很浪费时间！
 
 ![](https://s2.loli.net/2023/07/30/DjhSVgFCvHriZAX.png)
 
