@@ -13,6 +13,8 @@ keywords:
 - Python
 - AI Earth
 - 遥感
+top_img: https://s2.loli.net/2024/03/30/uxeUYTmFtzHdobc.jpg
+cover: https://s2.loli.net/2024/03/30/9mhS3aM8zsnQqXA.jpg
 ---
 `AI Earth` 是一个由阿里云提供支持的遥感算法开发和数据驱动科学平台。利用平台提供的`Python SDK`，我们可以通过编写Python代码来实现对遥感数据的云端处理。平台既提供了在线`Notebook`环境，也支持直接在本地`Jupyter Notebook`编写代码。因为在本地编写更有利于对后续管理，所以本项目也采用了本地`Jupyter Notebook`编写的方式。
 
