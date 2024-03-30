@@ -15,11 +15,6 @@ keywords:
 top_img: https://s2.loli.net/2023/08/23/Bitksb793JCvVol.png
 cover: https://s2.loli.net/2023/08/23/ixlohDHcbZ8MgjQ.jpg
 ---
-
-相关链接：
-
-MAA repo：https://github.com/MaaAssistantArknights/MaaAssistantArknights
-
 # 什么是MAA
 
 [Meo Assistant Arknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights)（现改名为Maa Assistant Arknights）是一款由[MistEO](https://github.com/MistEO)制作的基于**图像识别**技术，可以一键完成全部日常任务的明日方舟游戏小助手！
@@ -222,3 +217,7 @@ asst.append_task('Fight',fight_config)
 {% hideBlock 还有一些碎碎念 %}
 我真的很好奇，在维护日语文档的到底都有几批人，两个段落能看见三种不同语言的逗号和四种不同风格的引号。
 {% endhideBlock %}
+
+相关链接：
+
+MAA repo：https://github.com/MaaAssistantArknights/MaaAssistantArknights

@@ -15,16 +15,6 @@ keywords:
 top_img: https://s2.loli.net/2022/10/03/O4pYfQyejhoZdr9.jpg
 cover: https://s2.loli.net/2022/10/03/7UMZJFeDigNtfhk.jpg
 ---
-相关链接：
-
-NoneBot2：https://v2.nonebot.dev/
-
-Pallas-Bot：https://github.com/MistEO/Pallas-Bot
-
-Dice：https://github.com/Dice-Developer-Team/Dice
-
-Pallas-Helper：https://github.com/NtskwK/Pallasbot-Helper
-
 # 前提知识
 
 `NoneBot2`：一个跨平台的 Python 聊天机器人`框架`
@@ -199,3 +189,14 @@ nb run
 
 # 脚注
 [^1]：QQ跑团掷骰机器人的别称
+
+
+相关链接：
+
+NoneBot2：https://v2.nonebot.dev/
+
+Pallas-Bot：https://github.com/MistEO/Pallas-Bot
+
+Dice：https://github.com/Dice-Developer-Team/Dice
+
+Pallas-Helper：https://github.com/NtskwK/Pallasbot-Helper
