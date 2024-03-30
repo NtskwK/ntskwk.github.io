@@ -81,7 +81,7 @@ Pair potentially suited for Interferometry, check the precision plot
 
 选择主从影像，引用 DEM 。 
 
-*（没有准备DEM可以在 Tolbox/SARscape/General Tools/DEM Extraction/SRTM-3 Version 4 里下载 ）*
+*（没有准备DEM可以在 Toolbox/SARscape/General Tools/DEM Extraction/SRTM-3 Version 4 里下载 ）*
 
 ![](https://s2.loli.net/2023/07/30/wGUaZ5ne7vdLt6l.png)
 
@@ -106,12 +106,10 @@ Pair potentially suited for Interferometry, check the precision plot
 我的高精度影像数据在工作站满载跑了一个晚上才跑完，所以配置比较差的朋友更要主要合理安排时间。
 
 > 附配置单
-> 
 > E5 2666v3 * 2
-> 
 > 1080 Ti * 1
-> 
-> 96 GB + 1TB
+> 96 GB DDR4
+> 1TB SSD
 
 # 结果分析
 
