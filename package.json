@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
-    "axios": "^1.6.5",
+    "axios": "^1.6.8",
     "core-js": "^3.35.0",
     "gitalk": "^1.8.0",
     "gulp": "^5.0.0",
