@@ -617,9 +617,10 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub: 
     - I'm nothing special, just familiar.
-    - Do everything you want to do,do everything you can do.
+    - Do everything you want, do everything you can.
     - I'm here.I'm aways here.
     - Human effort is decisive factor.
+    - Nothing istrue, everything is permitted.
 
 # Loading Animation (加載動畫)
 preloader: true
