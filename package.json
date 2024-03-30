@@ -16,7 +16,7 @@
     "axios": "^1.6.5",
     "core-js": "^3.35.0",
     "gitalk": "^1.8.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "hexo": "^7.1.0",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
