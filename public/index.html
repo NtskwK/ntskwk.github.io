@@ -1,0 +1,396 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>夏宇的空间站 - 只是沙漠中的一艘小船罢了</title><meta name="keywords" content="Java,Docker,Premiere Pro,Live2D,Nonebot,Linux,ffmpeg,ENVI"><meta name="author" content="Natsuu"><meta name="copyright" content="Natsuu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="The day, to celebrate. I&#39;ll be waiting till we make it.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="夏宇的空间站">
+<meta property="og:url" content="https://blog.natsuu.top/index.html">
+<meta property="og:site_name" content="夏宇的空间站">
+<meta property="og:description" content="The day, to celebrate. I&#39;ll be waiting till we make it.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/07/21/Ng4clfqQdLJueSa.jpg">
+<meta property="article:author" content="Natsuu">
+<meta property="article:tag" content="Java,Docker,Premiere Pro,Live2D,Nonebot,Linux,ffmpeg,ENVI">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/07/21/Ng4clfqQdLJueSa.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.natsuu.top/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://cn.vercount.one/js"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":1000,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":730,"position":"top","messagePrev":"给岁月以历史","messageNext":"蒙尘的历史随时可能就会失去自己的光辉"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":300},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Natsuu","link":"链接: ","source":"来源: 夏宇的空间站","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '夏宇的空间站',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-04-03 17:13:08'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="夏宇的空间站" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/Ng4clfqQdLJueSa.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://wp.natsuu.tk/zh-CN/"><i class="fa-fw fas fa-warehouse"></i><span> 仓库</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时光机</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://s2.loli.net/2022/07/21/SQdcMngCGirBAwe.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">夏宇的空间站</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://wp.natsuu.tk/zh-CN/"><i class="fa-fw fas fa-warehouse"></i><span> 仓库</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时光机</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">夏宇的空间站</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/ntskwk" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:natsukawa247@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/03/30/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91AI%20Earth%E8%BF%9B%E8%A1%8C%E9%87%8E%E7%81%AB%E9%A3%8E%E9%99%A9%E6%80%A7%E5%88%86%E6%9E%90/" title="（遥感）利用阿里云 AI Earth 进行野火风险性分析"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/03/30/9mhS3aM8zsnQqXA.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（遥感）利用阿里云 AI Earth 进行野火风险性分析"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/03/30/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91AI%20Earth%E8%BF%9B%E8%A1%8C%E9%87%8E%E7%81%AB%E9%A3%8E%E9%99%A9%E6%80%A7%E5%88%86%E6%9E%90/" title="（遥感）利用阿里云 AI Earth 进行野火风险性分析">（遥感）利用阿里云 AI Earth 进行野火风险性分析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-30T04:44:48.000Z" title="发表于 2024-03-30 12:44:48">2024-03-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%B8%A9%E5%9D%91/">踩坑</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%81%A5%E6%84%9F/">遥感</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/">阿里云</a></span></div><div class="content">AI Earth 是一个由阿里云提供支持的遥感算法开发和数据驱动科学平台。利用平台提供的 Python SDK，我们可以通过编写 Python 代码来实现对遥感数据的云端处理。平台既提供了在线 Notebook 环境，也支持直接在本地 Jupyter Notebook 编写代码。因为在本地编写更有利于对后续管理，所以本项目也采用了本地 Jupyter Notebook 编写的方式。
+配置准备安装 AI Earth Engine SDK1python -m pip install -U "aie-sdk[engine]"
+
+注册阿里云账号阿里云・云小站
+获取鉴权信息根据不同的配置环境可以选择不同的鉴权方式
+
+使用在线 NoteBook 环境：无须鉴权
+使用本地模式，但是不需要长期有效：使用 token 鉴权
+使用本地模式，但是希望鉴权长期有效：使用阿里云 AccessKey 鉴权
+使用本地模式，但是希望使用 Aliyun STS 鉴权
+
+在 AI Earth 生成 token
+编写代码鉴权选取对应的方式进行鉴权
+12345678910111213import aie# 在线NoteBoo ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/01/06/2023%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/" title="（年度总结）2023 年的总结"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/03/30/REsuL4KhiNJO6xY.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（年度总结）2023 年的总结"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/01/06/2023%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/" title="（年度总结）2023 年的总结">（年度总结）2023 年的总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-06T07:41:27.000Z" title="发表于 2024-01-06 15:41:27">2024-01-06</time></span></div><div class="content">年度总结我想用一个词来概括 2023 年 —— 辞旧迎新。
+从 2023 年的年初我就已经做好了打算，要在一些事情上做出一些改变。也许我放在去年或者前年，我可能会很难想象在那之后所发生的事情。毕竟这听起来这是一个很飘渺的想法，但当一切都开始起作用的时候，产生的影响是巨大的。即使之前已经有了一定的心理预期，但还是感到相当震撼。
+我做出了一个重大的决定 —— 重开。
+我是说各种意义上的重开，不仅限于人设捆绑的社交帐号的重开。（虽然实际上也这么做了）我重新整理了我在线上和线下几乎所有的社交活动，改变了以往的很多作风，希望能够实现从 I 到 E 的转变。这看似是一个很漫长的过程，但实际执行起来也无非就是即刻从身边的事情开始做起。另一方面，两个月的公司学习经验给了我对行业的完全不同的视角，我开始重新梳理对发展前途的思考。通过向优秀的前辈和学长请教，我对发展的技术路线直接进行了接近推倒重来的构思。
+自进入大学以来，我都在寻求各个方面的改变，尝试去做各种各样以前从来没做过也不敢去想的事。但是推翻我在大学期间做出的一些决定到还是头一回。也许确实是我变了吧。
+新学的技能Pythonpython 的基础我 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/08/22/%E5%9F%BA%E4%BA%8EMAA%E7%9A%84%E8%87%AA%E5%8A%A8%E8%82%9D%E6%B8%B8%E6%88%8F%E8%84%9A%E6%9C%AC/" title="（Python）基于 MAA 的明日方舟自动化脚本"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/08/23/ixlohDHcbZ8MgjQ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（Python）基于 MAA 的明日方舟自动化脚本"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/08/22/%E5%9F%BA%E4%BA%8EMAA%E7%9A%84%E8%87%AA%E5%8A%A8%E8%82%9D%E6%B8%B8%E6%88%8F%E8%84%9A%E6%9C%AC/" title="（Python）基于 MAA 的明日方舟自动化脚本">（Python）基于 MAA 的明日方舟自动化脚本</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-21T17:02:36.000Z" title="发表于 2023-08-22 01:02:36">2023-08-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%84%9A%E6%9C%AC/">脚本</a></span></div><div class="content">什么是 MAAMeo Assistant Arknights（现改名为 Maa Assistant Arknights）是一款由 MistEO 制作的基于图像识别技术，可以一键完成全部日常任务的明日方舟游戏小助手！
+
+
+MAA 已经封装了简单易用的接口，我们可以通过查看附带的范例和阅读集成文档中的介绍可以进一步了解它的工作方式。
+Python 初调试安装好 MAA 后目录内已经附带了一个 Python 的 demo，一般是在这个位置。
+
+MAA\Python\sample.py
+
+ps: 为了保险起见，个人建议最好还是先在外面通过 MAA.exe 直接启动 GUI 检查 MAA 是否能正常正常工作再开始脚本调试。
+打开脚本后进行初配置。
+1234567891011121314151617181920212223242526272829303132# 请设置为存放 dll 文件及资源的路径path = pathlib.Path(__file__).parent.parent# 设置更新器的路径和目标版本并更新Updater(path, Version.Stable).update()#  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/07/30/%E5%88%A9%E7%94%A8Sentinel%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E6%95%B0%E6%8D%AE%E7%A0%94%E7%A9%B6%E5%9C%B0%E9%9C%87%E5%89%8D%E5%90%8E%E7%9A%84%E5%9C%B0%E8%A1%A8%E5%BD%A2%E5%8F%98/" title="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/07/30/QAEfBgnHG4zU9l6.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/07/30/%E5%88%A9%E7%94%A8Sentinel%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E6%95%B0%E6%8D%AE%E7%A0%94%E7%A9%B6%E5%9C%B0%E9%9C%87%E5%89%8D%E5%90%8E%E7%9A%84%E5%9C%B0%E8%A1%A8%E5%BD%A2%E5%8F%98/" title="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变">（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-30T10:50:23.000Z" title="发表于 2023-07-30 18:50:23">2023-07-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%81%A5%E6%84%9F/">遥感</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/ENVI/">ENVI</a></span></div><div class="content">前情概要据中国地震台网正式测定：07 月 03 日 20 时 57 分某市发生 3.7 级地震，震源深度 9 千米。某分析小组将用遥感卫星影像数据分析地震前后地表发生的形变。
+检查 SARscape 在 ENVI 中的配置
+安装 ENVI 以及 SARscape 扩展
+下载研究地区对应时段的 Sentinel 卫星影像和 DEM
+ 检查 SARscape 在 ENVI 中的配置
+有条件的话还可以准备 GPC 文件，但它不是必须的
+
+
+设置内存占用限制，检查 OpenCL 硬件加速的配置情况， 我这里没有独显就只开了核显 。
+
+应用 ENVI 自带的 Sentinel 参数设置
+加载 Sentinel 卫星影像
+依次导入所有影像，选择统一输出的目录，点击 Exec 开始读取。
+
+（SARscape 默认为每个步骤的输出文件重命名为 原文件名 加 特定后缀 ，有特殊需求可以在 Parameters 里更改。）
+基线估算打开基线估算
+
+/SARscape/Interferometry/Interferometric Tools/Baseline Estimation
+
+
+输入主从影像的 _l ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/30/2022%E9%87%8C%E5%8F%91%E7%94%9F%E7%9A%84%E9%82%A3%E7%82%B9%E4%BA%8B/" title="（年度总结）2022 里发生的那点事"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/01/03/1ax7BHi9rtuXdUs.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（年度总结）2022 里发生的那点事"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/30/2022%E9%87%8C%E5%8F%91%E7%94%9F%E7%9A%84%E9%82%A3%E7%82%B9%E4%BA%8B/" title="（年度总结）2022 里发生的那点事">（年度总结）2022 里发生的那点事</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-30T13:09:44.000Z" title="发表于 2022-12-30 21:09:44">2022-12-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">年度总结</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">年度总结</a></span></div><div class="content">折腾总结（小声：瑞幸的长椅靠背坐着真难受）
+写文章的总结关于这一年里折腾过的七七八八里，最让人有成就感的还得是个人博客这个东西。它不像 QQ 空间，也不像微信朋友圈，它不属于微博那样的类社交平台，也用不着在上面吐槽太多琐碎的事情。
+它是一个私人的站点，它只属于我一个人，但这并不代表在什么东西都可以跟玩一样的写在这里。很多简单的没有技术价值的东西就不必写了。有的内容仅用作记录而言还说得过去，但 “创造” 同样的东西无异于在浪费时间，CSDN 和知乎上已经有太多同样的东西了。
+我码字没有列大纲的习惯，双手放上键盘的时候才发现什么也写不出来，在这个时候才开始动脑确实还是太晚了。而自从在纸质书信一事上封笔之后，我还发现了一个更加严重的问题。在大多时候，在文章中精炼自己的语言对于我而言是一件很难的事。这不同于礼仪上的繁文缛节，是确确实实的废话连篇。 特别是习惯了在各种小作文里凑字数之后。 关于这方面确实还有很多地方需要改进。
+OneDrive 的那些事自丰收之秋之后，我花了大量的时间在折腾 OneDrive 这件事上。经过了三个月的倒腾，我最后还是选择了 Onedrive-vercel-inde ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/14/%E8%AF%BB%E4%B9%A6%E6%95%A3%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="（散记）读书散记（一）"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/07/30/cLvgWPeS5XEVsGI.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（散记）读书散记（一）"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/14/%E8%AF%BB%E4%B9%A6%E6%95%A3%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="（散记）读书散记（一）">（散记）读书散记（一）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-14T02:55:21.000Z" title="发表于 2022-12-14 10:55:21">2022-12-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E6%83%B3/">随想</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AF%BB%E4%B9%A6/">读书</a></span></div><div class="content">纸质书？电子书？因为那年的某件大事原因，原本在教室的日常学习改为了在宿舍上网课，我也赶在图书馆关闭前把《岩波日本史（3）》还了回去。与此同时，还莫明其妙种草了电纸书，Dennis 学长因此对这方面表达了相当多的意见。总之就是因为这个玩意到最后肯定会沦为泡面盖，就劝我三思，不要掉进消费陷阱（事后证明他的判断是正确的）。但是比计划来得更快的是意外 —— 同部门的同学因为要换 ipad pro，就把他现在在用的 ipad mini6 以不到 3k 的价格卖给了我 （有教育优惠真的可以为所欲为） 。那么按照流程，此时就应该打开 z-lib 了…… 等等，我 z-lib 呢？怎么突然挂了（土拨鼠咆哮.mp4）
+好吧，虽然 z-lib 暂时用不了了，但是我也在这段时间里找到了更多其他的搜书渠道，所以也算是有些小小的收获。
+烤乳鸽咕咕咕，这只鸽子把这篇文章搁置了半年，还不如抓出去烤了。（bushi）
+在那之后花了大概两个月学期的时间，总算（囫囵吞枣地）把这套书看完了。黑船事件和岩仓使团成了我对日本近代史中印象较深的部分。
+看电子书也逐渐开始成为正式我生活的一部分，这半年的时间里我陆陆续续也看了一些其 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/12/%E8%AF%BB%E4%B9%A6%E6%95%A3%E8%AE%B0%EF%BC%88%E9%9B%B6%EF%BC%89/" title="（散记）读书散记（零）"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/11/22/FTIbyjnEBV9Hd1f.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（散记）读书散记（零）"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/12/%E8%AF%BB%E4%B9%A6%E6%95%A3%E8%AE%B0%EF%BC%88%E9%9B%B6%EF%BC%89/" title="（散记）读书散记（零）">（散记）读书散记（零）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-12T13:49:02.000Z" title="发表于 2022-10-12 21:49:02">2022-10-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E6%83%B3/">随想</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AF%BB%E4%B9%A6/">读书</a></span></div><div class="content">图书馆入口的大门在第二层，进了大门后按照指示从藏书馆专用的楼梯走下了一楼。一楼也有自习用的桌椅，但人并不多，甚至还有空桌。顺着架子的上编号一路走过去，没有找到表示历史的 K 类，通道的尽头是两到三排的 I 类艺术类。
+靠里的某个书架之间有一位少女，她突兀地坐在那里，一个人坐在椅子上看书 —— 大概是图书馆的管理员。她没有注意到我，我也不想去打扰她，于是就靠着墙边往别处走去。
+图书馆一楼的深处有很多锁着的柜子，里面放着档案、文档、甚至磁带。
+花了一些时间，终于在另一个角落找到了 K类。确切的说，在那里的一大片区域都是单独分给 K类的，大概不少于三四十个书架。2xx~5xx 的架子上靠走道的位置便是日本史。那里的光线很暗，要走到更靠里一点的位置才能触发补充光源的感应器，只好打开手机的电筒找书。
+《岩波日本史》在书架的最顶部，《剑桥日本史》显得格外突出，我一开始是想要那本的。但无奈的是，整个系列只有一本在那里，整个图书馆系统也只能查到那唯一的一本，她甚至没有被任何人借阅过。因为此行的目的是找通史类书籍，所以对书架的下部放有各不同版本的《菊与刀》（[美] 本尼迪克特）也不感兴趣。《岩波日本史》 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/02/%E9%80%9A%E8%BF%87%E8%84%9A%E6%9C%AC%E5%AE%9E%E7%8E%B0nonebot%E4%BB%A5%E5%8F%8A%E5%85%B6%E6%8F%92%E4%BB%B6%E7%9A%84%E9%83%A8%E7%BD%B2/" title="（QQ-bot）Pallas-Bot 的一键式部署"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/10/03/7UMZJFeDigNtfhk.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（QQ-bot）Pallas-Bot 的一键式部署"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/02/%E9%80%9A%E8%BF%87%E8%84%9A%E6%9C%AC%E5%AE%9E%E7%8E%B0nonebot%E4%BB%A5%E5%8F%8A%E5%85%B6%E6%8F%92%E4%BB%B6%E7%9A%84%E9%83%A8%E7%BD%B2/" title="（QQ-bot）Pallas-Bot 的一键式部署">（QQ-bot）Pallas-Bot 的一键式部署</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-02T11:29:52.000Z" title="发表于 2022-10-02 19:29:52">2022-10-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%B8%A9%E5%9D%91/">踩坑</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Nonebot/">Nonebot</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/QQ-bot/">QQ-bot</a></span></div><div class="content">前提知识NoneBot2：一个跨平台的 Python 聊天机器人框架
+Pallas-Bot：一框交互式的聊天机器人插件
+Dice：一款 QQ 跑团掷骰机器人插件
+灵感来源得益于溯洄大佬在论坛上提供的一键式 Dice! 部署脚本，很多没有编程基础的人也可以在自己的设备上部署自己的骰娘 [^1]。利用批处理脚本来替代用户执行特定操作，这是一种非常巧妙的方法。那么有没有可能，这种脚本也能同样用于其他的聊天机器人上呢？
+解读脚本在开始工作之前，最好先提前了解一下它的实现方式。
+首先，用户在论坛的导航页下载 OneClickMiraiDice.cmd，然后启动脚本，让批处理脚本来代替用户完成部署操作。
+
+
+
+部署完成后，目录下的 PowerShell脚本即 main.ps1 是整个结构的核心，而同时生成的多个批处理脚本则负责用不同的启动参数来拉起 main.ps1。（其中的 bash 脚本是供 linux 用户使用的）
+
+
+按需修改我直接开抄！
+
+
+OneClickMiraiDice.cmd 中原本下载的 git 和 unzip 均来自溯洄本人的 OSS，现在改成了从镜像站点下载。
+虽然早就听说 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/10/01/Pr2022%E7%9A%84%E8%AF%AD%E9%9F%B3%E5%8C%85%E6%8B%86%E5%88%86/" title="（Premiere Pro）Pr2022 的语音包拆分"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/10/02/njwrhSVqkfAs5TP.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（Premiere Pro）Pr2022 的语音包拆分"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/10/01/Pr2022%E7%9A%84%E8%AF%AD%E9%9F%B3%E5%8C%85%E6%8B%86%E5%88%86/" title="（Premiere Pro）Pr2022 的语音包拆分">（Premiere Pro）Pr2022 的语音包拆分</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-01T15:40:03.000Z" title="发表于 2022-10-01 23:40:03">2022-10-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Premiere-Pro/">Premiere Pro</a></span></div><div class="content">话说在前我们剪辑工作室的招新工作即将完成，一群刚从高中毕业的小朋友们正准备成为新的同事。这本是每年必不可少的一件事，现在却给我们带来了不小的挑战。大家新买的笔记本电脑预装的都是 Windows11，而我们常用的软件 Premiere Pro 的 2021 版本对新系统的兼容性并不是很好。于是，我和一起工作的朋友们曾在讨论是否需要把目前的剪辑工作流从 Pr2021 迁移到 2022。（尽管去年我才艰难地说服了所有成员将已经安装的旧版软件更换为统一版本）
+在经历过几次更新后，Premiere Pro 2022 的稳定性已经比原来改善了许多。新版本的 Premiere Pro 不仅提升了性能，也给我们带来了许多更强大的新功能。我们将一部分更换新版本带来的改变列举了出来：
+优势
+
+软件界面更加便于上手
+对新硬件和新系统的支持性更好
+强大的离线S2T（Speech to Text：语音转文字）功能
+
+劣势
+
+需要重新适应功能布局
+删掉了旧版标题
+以及…… 安装包的体积实在是太大了
+
+简单思考从安装包开始其实相对来说，前面两点还挺好解决。但是最后这一点还是有不小难度的。Premiere Pro 这 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/08/21/%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7/" title="（分享）一些好 (qi) 用 (guai) 的工具"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/08/26/8MvlFQpUtCBO1we.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（分享）一些好 (qi) 用 (guai) 的工具"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/08/21/%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7/" title="（分享）一些好 (qi) 用 (guai) 的工具">（分享）一些好 (qi) 用 (guai) 的工具</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-08-21T07:40:27.000Z" title="发表于 2022-08-21 15:40:27">2022-08-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E8%B7%B5/">实践</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9E%E8%B7%B5/">实践</a></span></div><div class="content">DNS Benchmark用来测试哪种配置 DNS 最适合自己
+这个软件功能强大且非常简洁，它只有 160kb 大小，因为它是用会汇编语言的。
+使用方法👉https://www.grc.com/dns/operation.htm
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/Ng4clfqQdLJueSa.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Natsuu</div><div class="author-info__description">The day, to celebrate. I'll be waiting till we make it.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ntskws"><i class="fab fa-github"></i><span>Catch me on Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ntskwk" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:natsukawa247@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">平时不用QQ，有事可以发邮件给我 ♪(´▽｀)</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/03/30/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91AI%20Earth%E8%BF%9B%E8%A1%8C%E9%87%8E%E7%81%AB%E9%A3%8E%E9%99%A9%E6%80%A7%E5%88%86%E6%9E%90/" title="（遥感）利用阿里云 AI Earth 进行野火风险性分析"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/03/30/9mhS3aM8zsnQqXA.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（遥感）利用阿里云 AI Earth 进行野火风险性分析"/></a><div class="content"><a class="title" href="/2024/03/30/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91AI%20Earth%E8%BF%9B%E8%A1%8C%E9%87%8E%E7%81%AB%E9%A3%8E%E9%99%A9%E6%80%A7%E5%88%86%E6%9E%90/" title="（遥感）利用阿里云 AI Earth 进行野火风险性分析">（遥感）利用阿里云 AI Earth 进行野火风险性分析</a><time datetime="2024-03-30T04:44:48.000Z" title="发表于 2024-03-30 12:44:48">2024-03-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/01/06/2023%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/" title="（年度总结）2023 年的总结"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2024/03/30/REsuL4KhiNJO6xY.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（年度总结）2023 年的总结"/></a><div class="content"><a class="title" href="/2024/01/06/2023%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/" title="（年度总结）2023 年的总结">（年度总结）2023 年的总结</a><time datetime="2024-01-06T07:41:27.000Z" title="发表于 2024-01-06 15:41:27">2024-01-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/22/%E5%9F%BA%E4%BA%8EMAA%E7%9A%84%E8%87%AA%E5%8A%A8%E8%82%9D%E6%B8%B8%E6%88%8F%E8%84%9A%E6%9C%AC/" title="（Python）基于 MAA 的明日方舟自动化脚本"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/08/23/ixlohDHcbZ8MgjQ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（Python）基于 MAA 的明日方舟自动化脚本"/></a><div class="content"><a class="title" href="/2023/08/22/%E5%9F%BA%E4%BA%8EMAA%E7%9A%84%E8%87%AA%E5%8A%A8%E8%82%9D%E6%B8%B8%E6%88%8F%E8%84%9A%E6%9C%AC/" title="（Python）基于 MAA 的明日方舟自动化脚本">（Python）基于 MAA 的明日方舟自动化脚本</a><time datetime="2023-08-21T17:02:36.000Z" title="发表于 2023-08-22 01:02:36">2023-08-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/07/30/%E5%88%A9%E7%94%A8Sentinel%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E6%95%B0%E6%8D%AE%E7%A0%94%E7%A9%B6%E5%9C%B0%E9%9C%87%E5%89%8D%E5%90%8E%E7%9A%84%E5%9C%B0%E8%A1%A8%E5%BD%A2%E5%8F%98/" title="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/07/30/QAEfBgnHG4zU9l6.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变"/></a><div class="content"><a class="title" href="/2023/07/30/%E5%88%A9%E7%94%A8Sentinel%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E6%95%B0%E6%8D%AE%E7%A0%94%E7%A9%B6%E5%9C%B0%E9%9C%87%E5%89%8D%E5%90%8E%E7%9A%84%E5%9C%B0%E8%A1%A8%E5%BD%A2%E5%8F%98/" title="（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变">（遥感）利用 Sentinel 卫星影像数据研究某市地震引发的地表形变</a><time datetime="2023-07-30T10:50:23.000Z" title="发表于 2023-07-30 18:50:23">2023-07-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/30/2022%E9%87%8C%E5%8F%91%E7%94%9F%E7%9A%84%E9%82%A3%E7%82%B9%E4%BA%8B/" title="（年度总结）2022 里发生的那点事"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2023/01/03/1ax7BHi9rtuXdUs.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="（年度总结）2022 里发生的那点事"/></a><div class="content"><a class="title" href="/2022/12/30/2022%E9%87%8C%E5%8F%91%E7%94%9F%E7%9A%84%E9%82%A3%E7%82%B9%E4%BA%8B/" title="（年度总结）2022 里发生的那点事">（年度总结）2022 里发生的那点事</a><time datetime="2022-12-30T13:09:44.000Z" title="发表于 2022-12-30 21:09:44">2022-12-30</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%9E%E8%B7%B5/"><span class="card-category-list-name">实践</span><span class="card-category-list-count">8</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"><span class="card-category-list-name">年度总结</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E6%83%B3/"><span class="card-category-list-name">随想</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Auto-js/" style="font-size: 1.1em; color: #999">Auto.js</a> <a href="/tags/ENVI/" style="font-size: 1.1em; color: #999">ENVI</a> <a href="/tags/Nonebot/" style="font-size: 1.1em; color: #999">Nonebot</a> <a href="/tags/Premiere-Pro/" style="font-size: 1.1em; color: #999">Premiere Pro</a> <a href="/tags/Python/" style="font-size: 1.3em; color: #99a1ac">Python</a> <a href="/tags/QQ-bot/" style="font-size: 1.1em; color: #999">QQ-bot</a> <a href="/tags/blog/" style="font-size: 1.1em; color: #999">blog</a> <a href="/tags/%E5%AE%9E%E8%B7%B5/" style="font-size: 1.5em; color: #99a9bf">实践</a> <a href="/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" style="font-size: 1.1em; color: #999">年度总结</a> <a href="/tags/%E8%84%9A%E6%9C%AC/" style="font-size: 1.1em; color: #999">脚本</a> <a href="/tags/%E8%A1%A5%E6%A1%A3/" style="font-size: 1.1em; color: #999">补档</a> <a href="/tags/%E8%AF%BB%E4%B9%A6/" style="font-size: 1.3em; color: #99a1ac">读书</a> <a href="/tags/%E8%B8%A9%E5%9D%91/" style="font-size: 1.3em; color: #99a1ac">踩坑</a> <a href="/tags/%E9%81%A5%E6%84%9F/" style="font-size: 1.3em; color: #99a1ac">遥感</a> <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" style="font-size: 1.1em; color: #999">阿里云</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/08/"><span class="card-archive-list-date">八月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-07-21T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">15.8k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-03T09:13:07.935Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: (#002D42)"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2024 By Natsuu</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://ntskwk.github.io/about/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = ["I'm nothing special, just familiar.","Do everything you want, do everything you can.","I'm here.I'm aways here.","Human effort is decisive factor.","Nothing istrue, everything is permitted."]
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="120,230,255" opacity="0.8" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="https://cn.vercount.one/js"></script></div></body></html>
