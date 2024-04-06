@@ -872,6 +872,7 @@ CDN:
   custom_format:
 
   option:
+    busuanzi: https://cn.vercount.one/js
     # main_css:
     # main:
     # utils:
