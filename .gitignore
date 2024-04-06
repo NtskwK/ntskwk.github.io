@@ -6,4 +6,5 @@ node_modules/
 .deploy*/
 *.assets
 public/*
-
+themes/butterfly/.github
+themes/butterfly/.git
