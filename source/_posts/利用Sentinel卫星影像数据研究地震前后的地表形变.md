@@ -103,7 +103,7 @@ Pair potentially suited for Interferometry, check the precision plot
 
 然后回到`Input`直接点 `NEXT >>>` 开始任务。~~接下来就是在去菜市路上想想今晚该吃什么了~~
 
-我的高精度影像数据在工作站满载跑了一个晚上才跑完，所以配置比较差的朋友更要主要合理安排时间。
+我的高精度影像数据在工作站满载跑了一个晚上才跑完，所以配置比较差的朋友可能要注意合理安排时间。
 
 > 附配置单
 > E5 2666v3 * 2
@@ -113,12 +113,6 @@ Pair potentially suited for Interferometry, check the precision plot
 
 # 结果分析
 
-万幸的是，这一晚上都没有弹出报错。第二天到办公室就刚好看见了完成的结果图。图中可以看到，颜色越红的区域就是影响越大的区域。
+图中可以看到，颜色越红的区域就是影响越大的区域。
 
 ![](https://s2.loli.net/2023/07/30/FxG9Jz7ApNBZhra.png)
-
-# GIS出图*
-
-（这一步不是必须的）
-
-把 ENVI 的结果图转成通用格式放进GIS类软件（如ArcGIS）加工好就可以制成专题图了。

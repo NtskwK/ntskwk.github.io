@@ -81,7 +81,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://s2.loli.net/2022/07/21/Ng4clfqQdLJueSa.jpg
+  img: https://s2.loli.net/2024/04/25/BLpYOU8ltaJwFV9.jpg
   effect: false
 
 # Disable all banner image
@@ -857,7 +857,7 @@ CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主題只能設置為 local )
-  internal_provider: local
+  internal_provider: jsdelivr
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
