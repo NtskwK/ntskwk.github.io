@@ -38,11 +38,11 @@
     
     <category term="实践" scheme="https://blog.natsuu.top/tags/%E5%AE%9E%E8%B7%B5/"/>
     
-    <category term="踩坑" scheme="https://blog.natsuu.top/tags/%E8%B8%A9%E5%9D%91/"/>
-    
     <category term="遥感" scheme="https://blog.natsuu.top/tags/%E9%81%A5%E6%84%9F/"/>
     
     <category term="Python" scheme="https://blog.natsuu.top/tags/Python/"/>
+    
+    <category term="踩坑" scheme="https://blog.natsuu.top/tags/%E8%B8%A9%E5%9D%91/"/>
     
     <category term="阿里云" scheme="https://blog.natsuu.top/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
@@ -98,9 +98,9 @@
     
     <category term="实践" scheme="https://blog.natsuu.top/tags/%E5%AE%9E%E8%B7%B5/"/>
     
-    <category term="遥感" scheme="https://blog.natsuu.top/tags/%E9%81%A5%E6%84%9F/"/>
-    
     <category term="ENVI" scheme="https://blog.natsuu.top/tags/ENVI/"/>
+    
+    <category term="遥感" scheme="https://blog.natsuu.top/tags/%E9%81%A5%E6%84%9F/"/>
     
   </entry>
   
@@ -303,9 +303,9 @@
     <category term="实践" scheme="https://blog.natsuu.top/categories/%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="实践" scheme="https://blog.natsuu.top/tags/%E5%AE%9E%E8%B7%B5/"/>
-    
     <category term="补档" scheme="https://blog.natsuu.top/tags/%E8%A1%A5%E6%A1%A3/"/>
+    
+    <category term="实践" scheme="https://blog.natsuu.top/tags/%E5%AE%9E%E8%B7%B5/"/>
     
     <category term="Auto.js" scheme="https://blog.natsuu.top/tags/Auto-js/"/>
     
