@@ -73,6 +73,8 @@ Pair potentially suited for Interferometry, check the precision plot
 
 # DInSAR Displacement WorkFlow 工作流
 
+## 选择需要处理的影像
+
 打开 DInSAR Displacement WorkFlow 工作流。
 
 > /SARscape/Interferometry/DInSAR Displacement Workflow
@@ -85,23 +87,43 @@ Pair potentially suited for Interferometry, check the precision plot
 
 ![](https://s2.loli.net/2023/07/30/wGUaZ5ne7vdLt6l.png)
 
-左侧的选项栏可以直接调整每个步骤的参数，调完所有的之后再启动可以无人值守跑完整个流程。
+接着左侧的选项栏可以直接调整每个步骤的参数，调完所有的之后再启动可以无人值守跑完整个流程。
 
-**注意不要点到 `Next` 去了**，调一步走一步会很浪费时间！
+**注意不要点到 `Next` 去了**，调一步走一步会很浪费时间。
 
 ![](https://s2.loli.net/2023/07/30/DjhSVgFCvHriZAX.png)
 
-如果你的影像分辨率很高，就在左侧的选项栏找到`Adaptive Filter and Coherenace Generation`使用对高分辨率影像更友好算法。（分辨率不到5米的可以跳过这步）
+## 干涉图生成
 
-有准备的数据有控制点文件可以在这里导入，没有控制点对这次试验这次实验影响也不大。
+选择 `lnterferogram Generation`。
+
+## 干涉图滤波和相干性计算
+
+在左侧的选项栏找到`Adaptive Filter and Coherenace Generation`，对上一步生成的差分干涉图进行滤波，对干涉图的噪声进行一定程度的抑制，计算干涉像对的相干系数。
+
+如果你的影像分辨率很高，应当使用对高分辨率影像更友好算法。（分辨率不到5米的可以跳过这步）
+
+## 相位解缠
+
+选择`Phase Unwrapping`。干涉图中的相位，从-π到π呈周期性变化，当真实相位值大于π时，相位会重新从-π开始，以2π为周期循环。相位解缠是将相位由差分相位恢复为真实值的过程。根据需要选择解缠方法，解缠分解等级和解缠最小相干系数阈值。
+
+## 轨道精炼
+
+进入`GCP selection`，使用一组代表稳定位置的GPC点，进行多项式拟合，对轨道误差进行去除，优化相位解缠的结果。
+
+## 相位转形变与地理编码
+
+选择`Phase to Displacement Conversation and GeoCoding`，将经过轨道精炼和重去平的解缠相位，转换为形变，并地理编码到地理坐标系。
+
+## 开始处理
 
 如果没有什么其他特殊需求的话其他的地方，其他参数就都按自动填写的默认值就好了。
 
 ![](https://s2.loli.net/2023/07/30/FxG9Jz7ApNBZhra.png)
 
-都调完了后就在`Output`选择结果文件额的输出路径。
+都调完了后就在`Output`选择结果文件的输出路径。
 
-然后回到`Input`直接点 `NEXT >>>` 开始任务。~~接下来就是在去菜市路上想想今晚该吃什么了~~
+然后回到`Input`直接点 `NEXT >>>` 开始任务。
 
 我的高精度影像数据在工作站满载跑了一个晚上才跑完，所以配置比较差的朋友可能要注意合理安排时间。
 
